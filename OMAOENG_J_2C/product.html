@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="file.js"></script>
+</head>
+<body>
+  <header>
+    <h1>WELCOME TO MY PRODUCT PAGE</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="product.html">Product</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </nav>
+  </header>
+
+  <div class="body-content">
+    <div class="products">
+      <div class="row1">
+        <div class="card">
+          <img src="img/Delight.jpg">
+          <h3>Delight</h3>
+          <p>$60</p>
+          <button onclick="addToCart('Delight', 60)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Duchmikl.jpg">
+          <h3>Dutch Mill</h3>
+          <p>$35</p>
+          <button onclick="addToCart('Yakolt', 15)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Chuckie.jpg">
+          <h3>Chuckie</h3>
+          <p>$35</p>
+          <button onclick="addToCart('MtnDew', 25)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Selecta.jpg">
+          <h3>Selecta</h3>
+          <p>$35</p>
+          <button onclick="addToCart('Pepsi', 25)">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="card">
+          <img src="img/Pillows.jpg">
+          <h3>Pillows</h3>
+          <p>$10</p>
+          <button onclick="addToCart('Loaf Bread', 60)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Piattos.jpg">
+          <h3>Piattos</h3>
+          <p>$20</p>
+          <button onclick="addToCart('Vcut', 20)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Nova.jpg">
+          <h3>Nova</h3>
+          <p>$20</p>
+          <button onclick="addToCart('Chippy', 20)">Add to Cart</button>
+        </div>
+        <div class="card">
+          <img src="img/Moby.jpg">
+          <h3>Moby</h3>
+          <p>$10</p>
+          <button onclick="addToCart('Nova', 20)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <aside>
+      <h3>Cart</h3>
+      <p id="cart-list">Make a order</p>
+      <button onclick="checkout()">Checkout</button>
+      
+    </aside>
+  </div>
+
+  <footer>
+    <p>Developed by: Jewel Omaoeng | My Product Page</p>
+  </footer>
+</body>
+</html>
